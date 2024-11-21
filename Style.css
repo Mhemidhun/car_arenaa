@@ -1,0 +1,82 @@
+body{
+    overflow-x: hidden;
+}
+/* Navbar link colors */
+.nav-link {
+    color: white !important; /* Ensures text color is black by default */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Hover effect on navbar links */
+  .nav-link:hover {
+    color: black !important; /* Changes the text color to white on hover */
+  }
+
+  /* Make sure the navbar has full width */
+.navbar {
+    position: relative; /* Allows absolute positioning of the logo */
+    display: flex;
+    justify-content: space-between; /* Ensures links are on the left and right */
+    align-items: center; /* Aligns items vertically centered */
+  }
+  
+  /* Center the logo in the middle of the navbar */
+  .navbar-logo-center {
+    position: absolute;
+    left: 50%; /* Move the logo to the middle */
+    transform: translateX(-50%); /* Adjust the logo to be truly centered */
+  }
+  
+  /* Style for the logo image */
+  .navbar-logo {
+    height: 40px; /* Adjust the size of your logo */
+    width: auto;  /* Keep the aspect ratio of the logo */
+  }
+ /* Home section */
+ 
+
+  
+  /* Center the text within the home-text container */
+  .home-text {
+    width: 50%;
+    font-family: 'Arial', sans-serif; /* Optional: Customize font */
+  }
+  
+  /* Optional: Add styling to each h1 element */
+  h1.come, h1.view, h1.explore {
+    font-size: 3rem; /* Adjust the font size */
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  /* Optional: Style for the h6 (subtitle) */
+  h6 {
+    font-size: 1.2rem; /* Adjust size of subtitle */
+    margin-top: 1rem;
+  }
+  .porche{
+    background-color: red;
+  }
+  .sndhome{
+    position: relative;
+  }
+  .audi {
+    width: 50%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif /* Optional: Customize font */
+  }
+.audi{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.audi1{
+    background-color:black
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 350px;
+  cursor: pointer;
+}
